@@ -57,6 +57,11 @@
     text-align: end;
 }
 
+.descarga{
+    height: auto;
+    width: 80px;
+}
+
 .btn__cart{
     height: 55px;
     width: 55px;

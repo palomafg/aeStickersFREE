@@ -3,18 +3,23 @@ import { saveAs } from 'file-saver';
 import { Link } from 'react-router-dom';
 import { CgClose } from 'react-icons/cg';
 import { GoDesktopDownload } from 'react-icons/go';
+import { AiOutlineAndroid } from 'react-icons/ai';
 
 import { DarkContextUse } from '../../Contexts/DarkContext';
 import './ItemDetailStyle.css';
 
 const ItemDetail = ({ stk }) => {
 
-    const {sticker, nombre, descripcion} = stk;
+    const {sticker, nombre, descripcion, localURL} = stk;
+
+    const localfile = localURL;
+    console.log(localfile)
+    const filename = `${nombre.replace(/ /g, "_")}.png`;
 
     const { dark } = DarkContextUse();
 
     const downloadImage = () => {
-        saveAs(sticker, `${nombre}.png`);
+        saveAs(sticker, filename);
     }
 
     return (
@@ -39,9 +44,17 @@ const ItemDetail = ({ stk }) => {
                     </p>
                 </div>
 
-                <button onClick={downloadImage} className={`${dark? 'cartDark' : 'cartLight'} btn__cart my-4 p-1`}>
-                    <GoDesktopDownload/>
-                </button>
+                <div className='descarga col-3 my-4'>
+                    <button onClick={downloadImage} className={`${dark? 'cartDark' : 'cartLight'} btn__cart p-1`}>
+                        <GoDesktopDownload/>
+                    </button>
+                </div>
+
+                <a href={localfile} download={filename} className='descarga col-3 my-4'>
+                    <button className={`${dark? 'cartDark' : 'cartLight'} btn__cart p-1`}>
+                        <AiOutlineAndroid/>
+                    </button>
+                </a>
 
             </div>
         </div>
