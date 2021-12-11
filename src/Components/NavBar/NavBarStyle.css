@@ -1,0 +1,105 @@
+.navBarLight{
+    height: auto;
+    background-color: white;
+}
+.navBarDark{
+    height: auto;
+    background-color: black;
+}
+
+.logoLight{
+    border-bottom: 3px groove black;
+}
+.logoDark{
+    border-bottom: 3px groove white;
+}
+
+.nav__itemLight{
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.nav__itemLight:hover{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.nav__itemLight a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__itemDark{
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.nav__itemDark:hover{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.nav__itemDark a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__itemSelectedLight{
+    width: 50px;
+    height: 43px;
+    border: 1.8px solid black;
+    border-radius: 50%;
+}
+.nav__itemSelectedDark{
+    width: 50px;
+    height: 43px;
+    border: 1.8px solid white;
+    border-radius: 50%;
+}
+
+#modoClaro{
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+#cartLight{
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+#cartLight a{
+    text-decoration: none;
+    color: black;
+}
+
+#cartDark{
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+#cartDark a{
+    text-decoration: none;
+    color: white;
+}

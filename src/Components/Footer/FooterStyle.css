@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Matter-Light";
+    src: url("../../tipografias/Matter-Light.otf");
+}
+@font-face {
+    font-family: "Matter-Regular";
+    src: url("../../tipografias/Matter-Regular.otf");
+}
+
+.footerLight{
+    background-color: black;
+}
+.footerDark{
+    background-color: white;
+}
+
+.logoFooter{
+    width: 100px;
+}
+
+.creditos{
+    font-family: "Matter-Regular";
+    font-size: 12px;
+    text-align: end;
+}
+
+.credLight{
+    color: white;
+}
+.credDark{
+    color: black;
+}
+
+@media (min-width: 768px) {
+
+    .logoFooter{
+        width: 120px;
+    }
+}

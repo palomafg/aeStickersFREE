@@ -1,0 +1,20 @@
+.contenedorBuyComplete{
+    min-height: 600px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.cargando{
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 576px) {
+
+    .contenedorBuyComplete{
+        margin-top: 230px;
+    }
+}

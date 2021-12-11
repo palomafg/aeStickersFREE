@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Matter-HeavyItalic";
+    src: url("../../tipografias/Matter-HeavyItalic.otf");
+}
+@font-face {
+    font-family: "Matter-Light";
+    src: url("../../tipografias/Matter-Light.otf");
+}
+@font-face {
+    font-family: "Matter-SemiBold";
+    src: url("../../tipografias/Matter-SemiBold.otf");
+}
+
+.light{
+    color: black;
+}
+.light a{
+    color: black;
+}
+.dark{
+    color: white;
+}
+.dark a{
+    color: white;
+}
+
+.goHome{
+    height: auto;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+}
+.goHome a{
+    text-decoration: none;
+    transition: transform 1s;
+}
+.goHome a:hover{
+    color: darkgray;
+    transform: rotate(360deg);
+}
+
+.info__nombre{
+    font-family: "Matter-HeavyItalic";
+    font-size: 1.8rem;
+    text-align: start;
+}
+
+.info__desc{
+    font-family: "Matter-Light";
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+.info__precio{
+    font-family: "Matter-SemiBold";
+    font-size: 1.3rem;
+    text-align: end;
+}
+
+.btn__cart{
+    height: 55px;
+    width: 55px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+.cartLight{
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+.cartLight:hover{
+    color: white;
+    background-color: black;
+}
+.cartDark{
+    color: white;
+    border-color: white;
+    background-color: black;
+}
+.cartDark:hover{
+    color: black;
+    background-color: white;
+}

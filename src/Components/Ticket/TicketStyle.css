@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Matter-SemiBold";
+    src: url("../../tipografias/Matter-SemiBold.otf");
+}
+@font-face {
+    font-family: "Matter-Regular";
+    src: url("../../tipografias/Matter-Regular.otf");
+}
+@font-face {
+    font-family: "Matter-Light";
+    src: url("../../tipografias/Matter-Light.otf");
+}
+
+.ticket{
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 0%;
+    background-color: white;
+}
+
+.corteTop{
+    top: -1%;
+    left: 50%;
+}
+.corteBottom{
+    top: 101%;
+    left: 50%;
+}
+.corte__svg{
+    width: 100%;
+    height: auto;
+    transform: scale(1.004);
+}
+
+.cerrar{
+    font-size: 25px;
+    color: black;
+}
+
+.tuCompra{
+    font-family: "Matter-SemiBold";
+    font-size: 1rem;
+}
+
+.ordenIdLabel{
+    font-family: "Matter-SemiBold";
+    font-size: 0.7rem;
+}
+.ordenId{
+    font-family: "Matter-Regular";
+    font-size: 0.8rem;
+}
+
+.fecha{
+    font-family: "Matter-Regular";
+    font-size: 0.9rem;
+}
+
+.encabezado{
+    font-family: "Matter-SemiBold";
+    font-size: 0.7rem;
+}
+
+.itemComprado{
+    font-family: "Matter-Light";
+    font-size: 0.8rem;
+}
+
+.totalLabel{
+    font-family: "Matter-SemiBold";
+    font-size: 0.7rem;
+}
+.total{
+    font-family: "Matter-Regular";
+    font-size: 0.9rem;
+}
+
+.datosLabel{
+    font-family: "Matter-SemiBold";
+    font-size: 0.9rem;
+}
+
+.datos{
+    font-family: "Matter-Regular";
+    font-size: 0.9rem;
+}

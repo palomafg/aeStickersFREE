@@ -1,0 +1,27 @@
+.cargando{
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorItemList{
+    min-height: 600px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+
+    .contenedorItemList{
+        margin-top: 200px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .contenedorItemList{
+        margin-top: 150px;
+    }
+}

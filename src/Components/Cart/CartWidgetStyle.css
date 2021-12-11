@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Matter-Regular";
+    src: url("../../tipografias/Matter-Regular.otf");
+}
+
+.light{
+    color: black;
+}
+.dark{
+    color: white;
+}
+
+.cartWidget{
+    width: 50px;
+    height: 50px;
+
+    padding: 0px;
+
+    background-color: transparent;
+    border: 0px;
+    font-size: 1.8rem;
+}
+
+.cantCartTop{
+    padding-left: 2px;
+    padding-top: 19px;
+
+    font-family: "Matter-Regular";
+    font-size: 0.7rem;
+}
+.cantCartMiddle{
+    padding-top: 16px;
+
+    font-family: "Matter-Regular";
+    font-size: 0.7rem;
+}
+
+@media (min-width: 576px) {
+
+    .cartWidget{
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .cantCartTop{
+        padding-left: 10px;
+        padding-bottom: 8px;
+        font-size: 0.6rem;
+    }
+    .cantCartMiddle{
+        font-size: 0.5rem;
+    }
+}

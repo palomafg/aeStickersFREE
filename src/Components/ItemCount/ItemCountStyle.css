@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Matter-SemiBold";
+    src: url("../../tipografias/Matter-SemiBold.otf");
+}
+@font-face {
+    font-family: "Matter-RegularItalic";
+    src: url("../../tipografias/Matter-RegularItalic.otf");
+}
+
+.light{
+    color: black;
+}
+.dark{
+    color: white;
+}
+
+#btnLight{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+#btnLight:hover{
+    background-color: black;
+    color: white;
+}
+#btnDark{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+#btnDark:hover{
+    background-color: white;
+    color: black;
+}
+
+.counter{
+    align-items: center;
+    font-family: "Matter-SemiBold";
+}
+.counter__qty{
+    font-size: 1.6rem;
+}
+.counter__btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.btn__cart{
+    height: 55px;
+    width: 55px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
+
+.cartLight{
+    color: black;
+    background-color: white;
+}
+.cartLight:hover{
+    color: white;
+    background-color: black;
+}
+.cartDark{
+    color: white;
+    background-color: black;
+}
+.cartDark:hover{
+    color: black;
+    background-color: white;
+}
+
+.ver__cart{
+    width: 150px;
+    height: 45px;
+    
+    border-radius: 10% / 50%;
+
+    font-family: "Matter-RegularItalic";
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.verLight{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.verLight:hover{
+    background-color: white;
+    color: black;
+}
+.verDark{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+.verDark:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Tenebras";
+    src: url("../../tipografias/Tenebras.otf");
+}
+@font-face {
+    font-family: "Matter-Light";
+    src: url("../../tipografias/Matter-Light.otf");
+}
+@font-face {
+    font-family: "Matter-Bold";
+    src: url("../../tipografias/Matter-Bold.otf");
+}
+
+.light{
+    color: black;
+}
+.dark{
+    color: white;
+}
+
+.contenedorNoItems{
+    min-height: 600px;
+    margin-top: 160px;
+}
+
+.noHay{
+    font-family: "Tenebras";
+    font-size: 30px;
+}
+
+.verColeccion{
+    font-family: "Matter-Light";
+    font-size: 18px;
+}
+
+.irHome__btn{
+    width: 160px;
+    height: 55px;
+    
+    font-family: "Matter-Bold";
+    font-size: 18px;
+    border-radius: 25% 10%;
+
+    transition: transform 0.8s;
+}
+.irHome__btn:hover{
+    transform: scale(0.8, 0.8);
+}
+
+.btnLight{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.btnDark{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+
+@media (min-width: 576px){
+
+    .contenedorNoItems{
+        margin-top: 200px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .contenedorNoItems{
+        margin-top: 250px;
+    }
+}
+
+@media (min-width: 1400px){
+
+    .contenedorNoItems{
+        margin-top: 300px;
+    }
+}

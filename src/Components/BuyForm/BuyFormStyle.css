@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Matter-Light";
+    src: '../../tipografias/Matter-Light.otf';
+}
+
+.light{
+    color: black;
+}
+.dark{
+    color: white;
+}
+
+.formGroup{
+    font-family: "Matter-Light";
+}
+.formGroup__label{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.formGroup__control{
+    font-size: 0.9rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10% 40% / 50% 20%;
+}
+
+.check{
+    color: green;
+    font-size: 1.1rem;
+}
+.error{
+    color: red;
+    font-size: 1.1rem;
+}
+
+.btnComprar{
+    width: 120px;
+    height: 40px;
+    border-radius: 10% / 50%;
+
+    font-family: "Matter-RegularItalic";
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.btnComprar:disabled{
+    width: 120px;
+    height: 40px;
+    
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 10% / 50%;
+
+    font-family: "Matter-RegularItalic";
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.comprarLight{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.comprarLight:hover{
+    background-color: white;
+    color: black;
+}
+.comprarDark{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+}
+.comprarDark:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.cargando{
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorItemDetail{
+    margin-top: 193px;
+}
+
+@media (min-width: 576px){
+
+    .contenedorItemDetail{
+        margin-top: 190px;
+    }
+}
+
+@media (min-width: 992px){
+
+    .contenedorItemDetail{
+        margin-top: 235px;
+    }
+}
+
+@media (min-width: 1400px){
+
+    .contenedorItemDetail{
+        margin-top: 250px;
+    }
+}
