@@ -16,15 +16,15 @@ function App() {
         <NavBar/>
         <Switch>
 
-          <Route exact path="/aeStickers/detalles/:id">
+          <Route exact path="/aeStickersFREE/detalles/:id">
             <Detalles/>
           </Route>
 
-          <Route exact path="/aeStickers/categoria/:ctg">
+          <Route exact path="/aeStickersFREE/categoria/:ctg">
             <Categorias/>
           </Route>
 
-          <Route exact path="/aeStickers/">
+          <Route exact path="/aeStickersFREE/">
             <Stickers/>
           </Route>
 

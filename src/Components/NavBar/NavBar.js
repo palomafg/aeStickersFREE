@@ -26,7 +26,7 @@ const NavBar = () => {
         <div className={`${dark? 'navBarDark' : 'navBarLight'} fixed-top col-12 row m-0 p-0 justify-content-center`}>
             
             <div className={`${dark? 'logoDark' : 'logoLight'} col-10 col-sm-8 col-md-6 col-lg-5 col-xxl-4 my-3`}>
-                <Link to="/aeStickers/">
+                <Link to="/aeStickersFREE/">
                     <img className="logo__img" src={dark? logoWhite : logoBlack} alt="logo"/>
                 </Link>
             </div>
@@ -45,19 +45,19 @@ const NavBar = () => {
                 
                 <div className="col-6 col-sm-5 col-md-4 col-xxl-3 row flex-nowrap p-0 me-auto">
                     <div className={`${dark? 'nav__itemDark' : 'nav__itemLight'} col-1 m-1 p-1`}>
-                        <NavLink to="/aeStickers/categoria/ojos" activeClassName={`${dark? 'nav__itemSelectedDark' : 'nav__itemSelectedLight'}`}>
+                        <NavLink to="/aeStickersFREE/categoria/ojos" activeClassName={`${dark? 'nav__itemSelectedDark' : 'nav__itemSelectedLight'}`}>
                             <ImEye/>
                         </NavLink>
                     </div>
 
                     <div className={`${dark? 'nav__itemDark' : 'nav__itemLight'} col-1 m-1 p-1`}>
-                        <NavLink to="/aeStickers/categoria/narices" activeClassName={`${dark? 'nav__itemSelectedDark' : 'nav__itemSelectedLight'}`}>
+                        <NavLink to="/aeStickersFREE/categoria/narices" activeClassName={`${dark? 'nav__itemSelectedDark' : 'nav__itemSelectedLight'}`}>
                             <GiNoseFront/>
                         </NavLink>
                     </div>
 
                     <div className={`${dark? 'nav__itemDark' : 'nav__itemLight'} col-1 m-1 p-1`}>
-                        <NavLink to="/aeStickers/categoria/bocas" activeClassName={`${dark? 'nav__itemSelectedDark' : 'nav__itemSelectedLight'}`}>
+                        <NavLink to="/aeStickersFREE/categoria/bocas" activeClassName={`${dark? 'nav__itemSelectedDark' : 'nav__itemSelectedLight'}`}>
                             <GiLips/>
                         </NavLink>
                     </div>
